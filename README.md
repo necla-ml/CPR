@@ -37,7 +37,7 @@ Follow this
 [repo](https://github.com/TengdaHan/MemDPC/tree/master/process_data) to extract RGB and optical flow frames.
 Next, run `process_data/src/convert_video_to_lmdb.py` to creat LMDB files.
 
-## Pretrained Weights
+## InfoNCE Pretrained Weights
 Both pretrained InfoNCE RGB and Flow models on UCF101 are provided by [CoCLR](https://github.com/TengdaHan/CoCLR/blob/main/README.md#pretrained-weights).
 
 ## Training with CPR
