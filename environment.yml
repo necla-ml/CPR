@@ -1,0 +1,21 @@
+name: sslr_cpr
+
+channels:
+  - conda-forge
+dependencies:
+  - cudatoolkit=10.1
+  - python=3.8
+  - pytorch::pytorch=1.4
+  - pytorch::torchvision=0.5
+  - msgpack-python=0.6.1
+  - accimage
+  - opencv
+  - tqdm
+  - pandas
+  - scipy
+  - tensorboard
+  - scikit-learn
+  - python-lmdb
+  - matplotlib
+  - anaconda::msgpack-numpy
+  - ipdb
