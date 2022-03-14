@@ -1,10 +1,13 @@
 # CPR
 
 Official repository for《Self-supervised Video Representation Learning with Cascade Positive Retrieval》
+
 [[arXiv]](https://arxiv.org/abs/2201.07989)
 
 ![arch](asset/framework_diagram.png)
 
+## Citation
+If you find our work helpful, please consider citing:
 ``` 
 @article{wu2022-cpr,
   title={Self-supervised Video Representation Learning with Cascade Positive Retrieval},
