@@ -6,16 +6,7 @@ Official repository for《Self-supervised Video Representation Learning with Cas
 
 ![arch](asset/framework_diagram.png)
 
-## Citation
-If you find our work helpful, please consider citing:
-``` 
-@article{wu2022-cpr,
-  title={Self-supervised Video Representation Learning with Cascade Positive Retrieval},
-  author={Wu, Cheng-En and Lai, Farley and Hu, Yu Hen and Kadav, Asim},
-  journal={arXiv preprint arXiv:2201.07989},
-  year={2022}
-}
-```
+
 ## Installation
 ```
 conda env create -f environment.yml
@@ -129,6 +120,16 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch \
 --epochs 300 --schedule 240 -j 8 --name_prefix scratch_
 ```
 
-
 ## Acknowledgements
 Our implementation is adapted from [CoCLR](https://github.com/BestJuly/IIC). We thank the authors for the contribution.
+
+## Citation
+If you find our work helpful, please consider citing:
+``` 
+@article{wu2022-cpr,
+  title={Self-supervised Video Representation Learning with Cascade Positive Retrieval},
+  author={Wu, Cheng-En and Lai, Farley and Hu, Yu Hen and Kadav, Asim},
+  journal={arXiv preprint arXiv:2201.07989},
+  year={2022}
+}
+```
