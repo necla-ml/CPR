@@ -1,6 +1,6 @@
 # CPR
 
-Official repository for《Self-supervised Video Representation Learning with Cascade Positive Retrieval》
+Official repository for CVPR 2022 L3D-IVU Workshop paper《Self-supervised Video Representation Learning with Cascade Positive Retrieval》
 
 [[arXiv]](https://arxiv.org/abs/2201.07989)
 
